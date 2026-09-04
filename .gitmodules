@@ -1,0 +1,3 @@
+[submodule "mayak-pwm"]
+	path = mayak-pwm
+	url = git@github.com:maya4ok-dev/mayak-pwm.git
