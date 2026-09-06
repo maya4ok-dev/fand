@@ -44,6 +44,10 @@ int main() {
     }
 
     mayak_pwm_set_freq(&pwm, MAYAK_PWM_KHZ, 25);
+    mayak_pwm_set_duty(&pwm, SPEED_OK);
+
+    mayak_pwm_set_enabled(&pwm, true);
+
     mayak_pwm_set_inversed(&pwm, false);
 
     ts.tv_nsec = 500 * 1000 * 1000; // 500 ms
